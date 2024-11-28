@@ -12,7 +12,7 @@ const Footer = () => {
                     {Footertext.map((data, index) => {
                         return (
                             <div key={index} className='text-center'>
-                                <p className="text-lg md:text-3xl text-black font-semibold">{data.title}</p>
+                                <p className="text-lg md:text-3xl text-[#1a212d] font-semibold">{data.title}</p>
                                 <p className="text-sm md:text-xl text-gray-600 mt-[2rem]">{data.sec}</p>
                             </div>
                         )

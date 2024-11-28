@@ -8,9 +8,9 @@ import AnimatedBox from './tools/AnimatedBox';
 
 const Skills = () => {
     return (
-        <div id="skills-section" className="w-full h-[70rem] md:h-[33rem] py-5  mb-14">
+        <div id="skills-section" className="w-full h-[70rem] xl:h-[33rem] py-5  mb-14">
             <SectionTitle title="Skills" />
-            <div className="flex flex-col md:flex-row justify-center items-center md:space-x-[4rem] space-y-[4rem] md:space-y-0 mt-[7rem] md:mt-[5  rem]">
+            <div className="flex flex-col xl:flex-row justify-center items-center xl:space-x-[4rem] space-y-[4rem] md:space-y-[4rem] xl:space-y-0 mt-[7rem] md:mt-[5rem]">
                 <AnimatedBox>
                     <div className="box-border h-auto w-[25rem] p-6  text-center rounded-3xl shadow-2xl shadow-black/15 bg-white">
                         {Skill.map((data, index) => {

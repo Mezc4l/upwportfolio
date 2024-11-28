@@ -12,7 +12,7 @@ const Hero = () => {
                 {HeroFr.map((data, index) => {
                     return (
                         <div key={index} className='text-center mt-4'>
-                            <h1 className='text-2xl md:text-4xl font-medium'>{data.title}</h1>
+                            <h1 className='text-2xl text-[#1a212d] md:text-4xl font-medium'>{data.title}</h1>
                             <p className='text-base md:text-xl mt-2 text-gray-600'>{data.subtitle}</p>
                         </div>
                     )
