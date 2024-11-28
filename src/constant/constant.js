@@ -58,6 +58,5 @@ export const Footertext = [
         sec: "Ready to bring your design to life? Send me an invite, and let’s discuss how I can help you achieve your project goals.",
         profile: "View My Upwork Profile",
         copywrite: "Mouad Lakhnati. All rights reserved."
-
     }
 ]
