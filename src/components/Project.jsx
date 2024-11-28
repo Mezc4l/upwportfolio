@@ -13,12 +13,12 @@ const Project = () => {
     return (
         <div id="project-section" className="w-full h-auto bg-[#eaedee] py-10">
             <SectionTitle title="Featured Projects" />
-            <div className="flex flex-col gap-20 px-4 md:px-16 2xl:ml-[8rem]">
+            <div className="flex flex-col 2xl:justify-center 2xl:items-center gap-20 px-4 md:px-16 ">
                 <AnimatedBox>
                     <div className="flex flex-col lg:flex-row items-center lg:space-x-10 space-y-6 lg:space-y-0">
                         <div className="flex justify-center">
                             <img
-                                className="lg:h-[270px] lg:w-auto rounded-3xl shadow-lg"
+                                className="2xl:h-[270px]  2xl:w-auto rounded-3xl shadow-lg"
                                 src={saaspage}
                                 alt="SaaS Landing Page"
                             />
@@ -26,7 +26,7 @@ const Project = () => {
                         <div className="text-center lg:text-left max-w-[600px]">
                             {Saaspage.map((data, index) => (
                                 <div key={index}>
-                                    <h1 className="text-2xl font-semibold text-gray-800">{data.title}</h1>
+                                    <h1 className="text-2xl font-semibold text-[#1a212d]">{data.title}</h1>
                                     <p className="mt-4 text-gray-600 leading-relaxed">{data.description}</p>
                                     <div className="flex justify-center lg:justify-start space-x-4 text-3xl mt-4">
                                         <FaJsSquare className='text-[#f0db4f]' />
@@ -44,10 +44,10 @@ const Project = () => {
                 </AnimatedBox>
                 <AnimatedBox>
                     <div className="flex flex-col-reverse lg:flex-row items-center lg:space-x-10 space-y-6 lg:space-y-0">
-                        <div className="text-center 2xl:ml-[35rem] lg:text-left max-w-[600px]">
+                        <div className="text-center 2xl:ml-[2rem] lg:text-left max-w-[600px]">
                             {Hoobank.map((data, index) => (
                                 <div key={index}>
-                                    <h1 className="text-2xl font-semibold text-gray-800">{data.title}</h1>
+                                    <h1 className="text-2xl font-semibold text-[#1a212d]">{data.title}</h1>
                                     <p className="mt-4 text-gray-700 leading-relaxed">{data.description}</p>
                                     <div className="flex justify-center lg:justify-start space-x-4 text-3xl mt-4">
                                         <FaJsSquare className='text-[#f0db4f]' />
@@ -63,7 +63,7 @@ const Project = () => {
                         </div>
                         <div className="flex justify-center">
                             <img
-                                className="lg:h-[270px] lg:w-auto md:mb-0 mb-5 rounded-3xl shadow-lg"
+                                className="2xl:h-[270px]  2xl:w-auto xl:mb-0 mb-5 rounded-3xl shadow-lg"
                                 src={hoobank}
                                 alt="Hoobank Landing Page"
                             />

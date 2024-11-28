@@ -6,9 +6,9 @@ import AnimatedBox from '../components/tools/AnimatedBox';
 
 const WhyW = () => {
     return (
-        <div id='why-section' className='w-full h-[55rem] md:h-[25rem] py-5 mb-10'>
+        <div id='why-section' className='w-full h-[55rem] md:h-[45rem] xl:h-[25rem] py-5 mb-10'>
             <SectionTitle title="Why Work With Me?" />
-            <div className="grid grid-cols-1 md:grid-cols-3 space-y-[4rem] md:space-y-0 mt-[7rem] md:mt-[5rem] gap-10">
+            <div className="grid grid-cols-1 xl:grid-cols-3 space-y-[4rem] xl:space-y-0 mt-[7rem] md:mt-[5rem] gap-10">
                 <AnimatedBox>
                     <div className="text-center">
                         <FaCode className="text-4xl text-blue-500 mx-auto mb-4" />

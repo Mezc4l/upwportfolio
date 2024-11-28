@@ -9,7 +9,7 @@ import AnimatedBox from './tools/AnimatedBox';
 
 const About = () => {
     return (
-        <div id="about-section" className="w-full h-[85rem] md:h-[20rem] lg:h-[40rem]  bg-[#eaedee] py-5">
+        <div id="about-section" className="w-full h-[85rem] sm:h-[75rem] md:h-[70rem] lg:h-[759px] xl:h-[700px]  bg-[#eaedee] py-5">
             <SectionTitle title="About Me" />
 
             <div className="grid grid-cols-1 lg:grid-cols-2 items-center gap-10 mt">
