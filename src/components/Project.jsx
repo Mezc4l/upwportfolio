@@ -58,7 +58,7 @@ const Project = () => {
                                 </div>
                             ))}
                             <div className="mt-4">
-                                <Livepreview link="https://mezc4l.github.io/hoobank/" />
+                                <Livepreview link="https://mezc4l.github.io/hoobankwebsite/" />
                             </div>
                         </div>
                         <div className="flex justify-center">

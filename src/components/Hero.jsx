@@ -5,6 +5,7 @@ import { Link } from 'react-scroll';
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 
 
+
 const Hero = () => {
     return (
         <div id='hero' className='w-full h-[38rem]'>
@@ -17,6 +18,7 @@ const Hero = () => {
                         </div>
                     )
                 })}
+
                 <div className='text-sm md:text-base mt-2 text-gray-500'>
                     <TypeAnimation
                         sequence={[
